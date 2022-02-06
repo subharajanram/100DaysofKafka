@@ -1,4 +1,6 @@
-**100DaysofKafka** Event Streaming Platform: Collect Store and Processing Data
+**100DaysofKafka** 
+
+Event Streaming Platform: Collect->Store->Processing Data
 
 Kafka = Distributed event streaming platform: combines reliable and scalable messaging 
 and processing capabilities into a single unified platform
@@ -15,9 +17,9 @@ applications.
 
 Event Streaming applications: Handle events as they happen - present data while in transit.
 
-==========================================
+===========================================================================================
 
-Hosted solution vs Managed services.
+**Hosted solution vs Managed services**
 
 Managed services: Provide experience of Kakfa without knowledge of operating it.
 
@@ -30,12 +32,16 @@ Serverless Computing Model:
 
 Compute, Storage and Network ( Resources necessary to deploy a Kafka cluster in a given Cloud Provider)
 
-============================================
-Apache Kafka is a distributed streaming platform comprised of messaging, storage, and stream processing. By translating this into concrete technologies, you will find that Apache Kafka is made up of:
+===========================================================================================
+Apache Kafka is made up of:
 
-Core Kafka: brokers that implement messaging and storage capabilities
-Clients API: framework for creating producers (writers) and consumers (readers)
-Kafka Connect: framework for scalably moving data into and out of Apache Kafka
-Schema Registry: repository service for metadata and schemas using the REST API
-Kafka Streams: framework for implementing stream processing applications
+**Core Kafka:** brokers that implement messaging and storage capabilities
+
+**Clients API:** framework for creating producers (writers) and consumers (readers)
+
+**Kafka Connect:** framework for scalably moving data into and out of Apache Kafka
+
+**Schema Registry:** repository service for metadata and schemas using the REST API
+
+**Kafka Streams:** framework for implementing stream processing applications
 
